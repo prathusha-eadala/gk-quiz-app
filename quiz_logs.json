@@ -1,0 +1,134 @@
+[
+  {
+    "id": "uyulz0fcb",
+    "timestamp": "2026-07-13T04:53:49.631Z",
+    "category": "History",
+    "request_payload": {
+      "category": "History"
+    },
+    "response_payload": {
+      "raw_llm_text": "{\n  \"question\": \"Which ancient civilization built the Great Pyramid of Giza?\",\n  \"options\": [\"Ancient Greeks\", \"Ancient Romans\", \"Ancient Egyptians\", \"Aztecs\"],\n  \"answer\": \"Ancient Egyptians\",\n  \"explanation\": \"The Great Pyramid of Giza is one of the Seven Wonders of the Ancient World and is attributed to the Ancient Egyptian civilization, specifically the pharaoh Khufu.\"\n}",
+      "structured_data": {
+        "question": "Which ancient civilization built the Great Pyramid of Giza?",
+        "options": [
+          "Ancient Greeks",
+          "Ancient Romans",
+          "Ancient Egyptians",
+          "Aztecs"
+        ],
+        "answer": "Ancient Egyptians",
+        "explanation": "The Great Pyramid of Giza is one of the Seven Wonders of the Ancient World and is attributed to the Ancient Egyptian civilization, specifically the pharaoh Khufu."
+      }
+    }
+  },
+  {
+    "id": "5hpartbul",
+    "timestamp": "2026-07-13T04:54:00.752Z",
+    "category": "History",
+    "request_payload": {
+      "category": "History"
+    },
+    "response_payload": {
+      "raw_llm_text": "{\n  \"question\": \"Which ancient civilization built the city of Machu Picchu?\",\n  \"options\": [\"Aztecs\", \"Mayans\", \"Incans\", \"Olmecs\"],\n  \"answer\": \"Incans\",\n  \"explanation\": \"Machu Picchu is an Incan citadel located on a mountain ridge above the Urubamba Valley in Peru.\"\n}",
+      "structured_data": {
+        "question": "Which ancient civilization built the city of Machu Picchu?",
+        "options": [
+          "Aztecs",
+          "Mayans",
+          "Incans",
+          "Olmecs"
+        ],
+        "answer": "Incans",
+        "explanation": "Machu Picchu is an Incan citadel located on a mountain ridge above the Urubamba Valley in Peru."
+      }
+    }
+  },
+  {
+    "id": "sc2ii5l6u",
+    "timestamp": "2026-07-13T04:54:10.861Z",
+    "category": "History",
+    "request_payload": {
+      "category": "History"
+    },
+    "response_payload": {
+      "raw_llm_text": "{\n  \"question\": \"Which ancient civilization built the Great Library of Alexandria?\",\n  \"options\": [\"Ancient Egyptians\", \"Ancient Greeks\", \"Mesopotamians\", \"Ancient Romans\"],\n  \"answer\": \"Ancient Greeks\",\n  \"explanation\": \"The Great Library of Alexandria was built during the Ptolemaic Kingdom, which was a Greek dynasty that ruled Egypt after the death of Alexander the Great.\"\n}",
+      "structured_data": {
+        "question": "Which ancient civilization built the Great Library of Alexandria?",
+        "options": [
+          "Ancient Egyptians",
+          "Ancient Greeks",
+          "Mesopotamians",
+          "Ancient Romans"
+        ],
+        "answer": "Ancient Greeks",
+        "explanation": "The Great Library of Alexandria was built during the Ptolemaic Kingdom, which was a Greek dynasty that ruled Egypt after the death of Alexander the Great."
+      }
+    }
+  },
+  {
+    "id": "otrmx424a",
+    "timestamp": "2026-07-13T04:54:25.083Z",
+    "category": "History",
+    "request_payload": {
+      "category": "History"
+    },
+    "response_payload": {
+      "raw_llm_text": "{\n  \"question\": \"Which ancient civilization built the Great Library of Alexandria?\",\n  \"options\": [\"Ancient Greeks\", \"Ancient Romans\", \"Ptolemaic Kingdom\", \"Macedonian Empire\"],\n  \"answer\": \"Ptolemaic Kingdom\",\n  \"explanation\": \"The Great Library of Alexandria was built during the Ptolemaic Kingdom, which was a Greek dynasty that ruled Egypt after the death of Alexander the Great.\"\n}",
+      "structured_data": {
+        "question": "Which ancient civilization built the Great Library of Alexandria?",
+        "options": [
+          "Ancient Greeks",
+          "Ancient Romans",
+          "Ptolemaic Kingdom",
+          "Macedonian Empire"
+        ],
+        "answer": "Ptolemaic Kingdom",
+        "explanation": "The Great Library of Alexandria was built during the Ptolemaic Kingdom, which was a Greek dynasty that ruled Egypt after the death of Alexander the Great."
+      }
+    }
+  },
+  {
+    "id": "1ypq20pc8",
+    "timestamp": "2026-07-13T04:54:33.803Z",
+    "category": "History",
+    "request_payload": {
+      "category": "History"
+    },
+    "response_payload": {
+      "raw_llm_text": "{\n  \"question\": \"What was the main outcome of the Treaty of Versailles in 1919?\",\n  \"options\": [\"Establishment of the League of Nations\", \"Redrawing of the European border\", \"Reparations imposed on Germany\", \"End of World War I\"],\n  \"answer\": \"End of World War I\",\n  \"explanation\": \"The Treaty of Versailles officially marked the end of World War I, bringing an end to the conflict between the Allied and Central Powers.\"\n}",
+      "structured_data": {
+        "question": "What was the main outcome of the Treaty of Versailles in 1919?",
+        "options": [
+          "Establishment of the League of Nations",
+          "Redrawing of the European border",
+          "Reparations imposed on Germany",
+          "End of World War I"
+        ],
+        "answer": "End of World War I",
+        "explanation": "The Treaty of Versailles officially marked the end of World War I, bringing an end to the conflict between the Allied and Central Powers."
+      }
+    }
+  },
+  {
+    "id": "ikfmii0n6",
+    "timestamp": "2026-07-13T04:57:15.897Z",
+    "category": "History",
+    "request_payload": {
+      "category": "History"
+    },
+    "response_payload": {
+      "raw_llm_text": "{\n  \"question\": \"Which ancient civilization built the city of Machu Picchu?\",\n  \"options\": [\"Aztecs\", \"Mayans\", \"Incans\", \"Olmecs\"],\n  \"answer\": \"Incans\",\n  \"explanation\": \"Machu Picchu is an Incan citadel located in Peru, built in the 15th century.\"\n}",
+      "structured_data": {
+        "question": "Which ancient civilization built the city of Machu Picchu?",
+        "options": [
+          "Aztecs",
+          "Mayans",
+          "Incans",
+          "Olmecs"
+        ],
+        "answer": "Incans",
+        "explanation": "Machu Picchu is an Incan citadel located in Peru, built in the 15th century."
+      }
+    }
+  }
+]
