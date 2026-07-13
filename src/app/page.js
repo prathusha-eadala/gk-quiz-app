@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const categoryImages = {
   "History": "https://images.unsplash.com/photo-1599733589046-10c005739ef9?auto=format&fit=crop&w=800&q=80",
@@ -10,8 +10,12 @@ const categoryImages = {
 };
 
 export default function Home() {
+  // 1. Initialize the missing mounting state
+  const [hasMounted, setHasMounted] = useState(false);
+  
+  // 2. All your other original state configurations
   const [category, setCategory] = useState("History");
-  const [quizLength, setQuizLength] = useState(10); // Default quiz size configuration
+  const [quizLength, setQuizLength] = useState(10);
   const [currentQuestionNumber, setCurrentQuestionNumber] = useState(0);
   const [isGameActive, setIsGameActive] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -22,6 +26,23 @@ export default function Home() {
   
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [user] = useState({ name: "Maya", level: 5, rank: "Explorer" });
+
+  // 3. Trigger the mount status update on the client browser
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  // 4. Return early if the client layout hasn't synchronized yet
+  if (!hasMounted) {
+    return (
+      <div className="min-h-screen bg-slate-950 text-white flex flex-col items-center justify-center p-4">
+        <div className="flex flex-col items-center gap-3">
+          <span className="h-6 w-6 rounded-full border-2 border-indigo-500 border-t-transparent animate-spin"></span>
+          <span className="text-xs font-mono text-slate-400">Synchronizing AI Matrix...</span>
+        </div>
+      </div>
+    );
+  }
 
   const startNewQuiz = () => {
     setScore(0);
